@@ -92,6 +92,20 @@ header h2 {
    margin: auto;
 }
 
+.spin {
+   animation: all 10s infinite linear;
+   transform: rotate(360de);
+}
+
+/* @keyframes spin {
+   from {
+      transform: rotate(0deg);
+   }
+   to {
+      transform: rotate(360deg);
+   }
+} */
+
 /* CONTROL */
 
 .control {
@@ -101,6 +115,10 @@ header h2 {
    margin: 18px 0 5px 0;
    border: 1px solid #f7d9d9;
    border-radius: 15px;
+}
+
+.btn {
+   cursor: pointer;
 }
 
 .control .btn {
@@ -146,6 +164,11 @@ header h2 {
    border-radius: 5px;
    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
    transition: 0.2s all ease;
+   cursor: pointer;
+}
+
+.a {
+   animation: rotate(360deg) infinite;
 }
 
 .song.active {
